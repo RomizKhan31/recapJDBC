@@ -13,6 +13,7 @@ public class Insertion {
         //System.out.print(name);
         CRUD crudOperation = new CRUD();
         crudOperation.InsetDB(name);
+        System.out.println("Inserted successfully.");
     }
 }
 
